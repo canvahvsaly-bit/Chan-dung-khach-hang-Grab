@@ -1,0 +1,6 @@
+{
+  "name": "Báo Cáo Kinh Doanh Online Tháng 8 & Kế Hoạch Tháng 9",
+  "description": "Báo cáo phân tích hiệu quả kinh doanh 4 ứng dụng giao hàng và kế hoạch hành động tối ưu chi phí cho 3 chi nhánh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
