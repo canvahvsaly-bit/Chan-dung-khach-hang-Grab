@@ -29,12 +29,12 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ activeTab, onSelectTab, onOpenPrint }) => {
   const navItems: { id: ActiveTab; label: string; icon: React.ReactNode; badge?: string }[] = [
+    { id: 'customers', label: 'Khách Hàng & Heatmap', icon: <Clock className="w-4 h-4" /> },
     { id: 'overview', label: 'Tổng Quan Chuỗi', icon: <BarChart3 className="w-4 h-4" /> },
     { id: 'truong-sa', label: 'Trường Sa', icon: <Store className="w-4 h-4" />, badge: '43.8% DT' },
     { id: 'tran-huy-lieu', label: 'Trần Huy Liệu', icon: <Store className="w-4 h-4" />, badge: '+12.7%' },
     { id: 'le-quang-dinh', label: 'Lê Quang Định', icon: <Store className="w-4 h-4" />, badge: 'Cần tối ưu' },
     { id: 'compare', label: 'So Sánh 3 Chi Nhánh', icon: <GitCompare className="w-4 h-4" /> },
-    { id: 'customers', label: 'Khách Hàng & Heatmap', icon: <Clock className="w-4 h-4" /> },
     { id: 'actions', label: 'Kế Hoạch Tháng 9', icon: <CheckSquare className="w-4 h-4" />, badge: '5 Trụ cột' },
     { id: 'simulator', label: 'Mô Phỏng Tối Ưu', icon: <Calculator className="w-4 h-4" /> },
   ];

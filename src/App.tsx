@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<ActiveTab>('overview');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('customers');
   const [isPrintModalOpen, setIsPrintModalOpen] = useState<boolean>(false);
 
   return (
